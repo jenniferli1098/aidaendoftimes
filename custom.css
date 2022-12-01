@@ -1,0 +1,36 @@
+/* .container {
+  height: 100%;
+} */
+
+html,
+body {
+  height: 100%;
+  color: white;
+}
+
+body {
+  background-color: black;
+  /*         background-image: url("https://cdn.glitch.com/ff5b1c0b-ca22-4fd9-afed-8ffeb46759e7%2Fcool%20gif.gif?v=1605721206964"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Courier New', monospace;
+}
+
+hr {
+  border-color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
